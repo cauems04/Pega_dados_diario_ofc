@@ -1,6 +1,11 @@
 # Pega_dados_diario_ofc
 Desenvolvimento de um sistema que lê dados recebidos do email do Diário Oficial, e os apresenta em uma página para ser incorporado em sistemas como o SharePoint.
 
+# Requisitos do Sistema
+Python 3.8.10
+## Pacotes importados:
+Flask,imap_tools, datetime, base64.
+
 # Processos da Automação
 ## Pega texto do Diário Oficial:
 Acessa as mensagens do e-mail pelo através do protocolo imap(Protocolo de acesso de mensagens via internet –Permite com que possamos acessar mensagens de e-mail).
